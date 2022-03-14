@@ -18,9 +18,11 @@
     "joi": "^17.5.0",
     "mysql2": "^2.3.3",
     "path": "^0.12.7",
+    "query-string": "^7.1.1",
     "sequelize": "^6.17.0",
     "sequelize-cli": "^6.4.1",
-    "sql-dialect": "^5.0.1"
+    "sql-dialect": "^5.0.1",
+    "url": "^0.11.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
