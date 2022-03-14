@@ -1,20 +1,20 @@
 const express = require('express');
 const router = express.Router()
-const { viewCourses, createCourse, findById, updateCourse, deleteCourse } = require('../controllers/courses')
+const courseController= require('../controllers/courseCrontroller')
 router.use(logger);
 
 //view and create APIs
 router
     .route('/')
-    .get(viewCourses)
-    .post(createCourse)
+    .get(courseController.viewCourses)
+    .post(courseController.createCourse)
 
 //findById,update,delete APIs
 router
     .route('/:id')
-    .get(findById)
-    .put(updateCourse)
-    .delete(deleteCourse)
+    .get(courseController.findById)
+    .put(courseController.updateCourse)
+    .delete(courseController.deleteCourse)
 
 //Logger middleware
 function logger(req, res, next) {

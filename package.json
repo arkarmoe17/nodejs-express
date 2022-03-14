@@ -10,11 +10,16 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.2",
+    "fs": "^0.0.1-security",
     "joi": "^17.5.0",
     "mysql2": "^2.3.3",
+    "path": "^0.12.7",
+    "sequelize": "^6.17.0",
+    "sequelize-cli": "^6.4.1",
     "sql-dialect": "^5.0.1"
   },
   "devDependencies": {
